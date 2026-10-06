@@ -1,0 +1,5 @@
+- Single-purpose files, functions under 40 lines, type hints everywhere.
+- Never hardcode secrets. Use .env.
+- Every module exposes one pure function plus tests.
+- Frontend must stay dependency-free until Phase 1 is accepted.
+- After each phase: run tests, update PLAN.md checkboxes, commit.
